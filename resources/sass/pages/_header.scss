@@ -1,0 +1,115 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    &.sticky-nav{
+        background-color: rgba($black, 0.8);
+    }
+}
+.some-links{
+    display: flex;
+    li{
+        border-right:3px solid $gray;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        flex:0 0 auto;
+        &:last-child{
+            border-right:0;
+            padding-right: 0;
+        }
+        .icon{
+            margin-right: 10px;
+            width: 40px;
+        }
+        .text{
+            p{
+                color:$white;
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+           
+            a{
+                color:$white;
+                font-size: 16px;
+                font-weight: 400px;
+            }
+        }
+    }
+}
+
+.cubes_navbar{
+
+    &.navbar{
+        padding:0px 15px;
+        background-color: $main-color;
+    }
+    .navbar-nav  {
+          .nav-item{
+              margin-left:0px;
+              margin-right:0px;
+              position: relative;
+              &:hover{
+                  &:before{
+                      content:"";
+                      width: 100%;
+                      height: 5px;
+                      background-color: $main-color;
+                      position: absolute;
+                      left: 0;
+                      bottom:0px;
+                  }
+              }
+              &.active{
+                  &:before{
+                      content:"";
+                      width: 100%;
+                      height: 5px;
+                      background-color: $main-color;
+                      position: absolute;
+                      left: 0;
+                      bottom:0px;
+                  }
+              }
+
+              .nav-link{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color:#fff;
+                padding:15px 23px;
+                &:hover{
+                    color:#F58220;
+  
+                }
+            }
+          }
+          .dropdown{
+           
+            &:hover{
+                .dropdown-toggle  + .dropdown-menu{
+                        display: block;
+                 }
+            }
+            .dropdown-menu{
+                border-top: 4px solid #EAA117;
+                border-radius: 0;
+            }
+            .dropdown-toggle::after{
+                background-image: url('../media/images/yellow-down-arrow.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 14px;
+                height: 8px;
+                border:0;
+                vertical-align: initial;
+            }
+        }
+
+      }
+     
+  }

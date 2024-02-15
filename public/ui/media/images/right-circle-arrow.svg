@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_1" data-name="Group 1" transform="translate(-8.1 -8.1)">
+    <g id="Icon-Arrow-Left" transform="translate(8.1 8.1)">
+      <path id="Fill-25" d="M.1-279.9a20,20,0,0,1-20-20,20,20,0,0,1,20-20,20,20,0,0,1,20,20,20,20,0,0,1-20,20Zm0-37.824A17.893,17.893,0,0,0-17.724-299.9,17.893,17.893,0,0,0,.1-282.076,17.893,17.893,0,0,0,17.924-299.9,17.893,17.893,0,0,0,.1-317.724Z" transform="translate(19.9 319.9)" fill="#fff"/>
+      <path id="Fill-26" d="M3.206-286.771,1.7-288.361l9.791-9.874L1.7-308.11l1.506-1.59,11.464,11.464L3.206-286.771" transform="translate(16.375 318.236)" fill="#fff"/>
+      <path id="Fill-27" d="M11.384-295.057H-8.7V-297.4H11.384Z" transform="translate(18.072 316.228)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
